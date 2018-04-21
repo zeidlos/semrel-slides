@@ -1,50 +1,50 @@
-
-# It's Magic!
-## Smart Versioning &amp; Automatic Changelog
-
-
-## Warum?
-* Aussagekr&auml;ftige Versionsnummern
-* Standardisierte Definition
+## Semantic Versioning &amp; Automatic Changelog done right
+One approach on how to take the headache out of release management
 
 
-## Definition
-MAJOR.MINOR.PATCH
+
+# Intro
+Version numbers should follow a certain, standardised scheme in order to make sense to humans and software
 
 
-* MAJOR wenn die Abw&auml;rtskompatibilit&auml;t kaputt geht (Breaking changes)
-* MINOR wenn neue Features implementiert wurden
-* PATCH wenn Bugfixes ver&ouml;ffentlicht werden
+# Semantic Versioning
+[semver.org](https://semver.org/)
 
 
-## Semver vs. StarMoney 11
+* **MAJOR** Breaking changes!
+* **MINOR** Feature release
+* **PATCH** Bugfix release
+Angular **5.2.10**
 
-* Semver Versionen sind keine Produktbezeichnungen oder gut f&uuml;rs Marketing.
-* Semver hilft Entwicklern und PO's zu verstehen, wie und was sich ver&auml;ndert hat.
+
+## Semver vs. Marketing Releases
+
+* Semver exposes an 'API' to developers and non-technical people
 * Dependency-Management
-
-
-## JavaScript &Ouml;kosystem
-* Viele, viele, viele kleine Pakete
-* Dependency H&ouml;lle
 
 
 ```
 "dependencies": {
-    "@octokit/rest": "^15.2.2",
-    "async": "x",
-    "axios": "^0.x",
-    "babel-core": "^6.26.0",
+    "@octokit/rest": "15.2.x",
+    "axios": "0.x",
+    "async": "x"
 }
 ```
 
 
-## Wie sorge ich sinnvoll f&uuml;r Updates, ohne etwas kaputt zu machen?
+```
+"fancy-kitten-library": "x"     // Gimme the new shit!
+"fancy-kitten-library": "2.x"   // Allows new features
+"fancy-kitten-library": "2.1.x" // Fixed to Bugfixes
+"fancy-kitten-library": "2.1.0" // Fixed Version
+```
 
-* "cz-conventional-changelog": "x"
-* "cz-conventional-changelog": "2.x"
-* "cz-conventional-changelog": "2.1.x"
-* "cz-conventional-changelog": "2.1.0"
+
+## Why should I use it?
+* Communicate changes clearly
+* Allow for clean dependency management
+* Stop worrying about versioning
+
 
 
 ## Fazit
