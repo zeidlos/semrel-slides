@@ -47,17 +47,32 @@ Angular **5.2.10**
 
 
 
-## Fazit
-
-Dependency-Management funktioniert nur, wenn die Package-Maintainer sich nach SemVer richten.
-
-SemVer macht f&uuml;r alle Software-Produkte Sinn.
+## Node Modules only?
 
 
-# Automatisierung
+
+## No! SemRel all the things!
+[Example](https://github.com/semantic-release/cli/releases)
+
+
+
+# Requirements for automation
+
+
+## Proper commit messages
 
 
 ## Angular Commit Message Format
+(You can use custom conventions as well)
+
+
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
 
 ```
 fix(navigation-controller): Fixes routing for modal views
@@ -67,6 +82,19 @@ Closes: #123
 
 
 ## commitizen
+CLI to write commit messages according to a (custom) shared convention
+
+
+## There are plugins for VSCode, Atom, Intellij, Sublime, ...
 
 
 ## semantic-release
+Automates release based on commit messages
+
+
+## JS Only?
+Tooling is JS, but works for everything.
+
+
+
+# Live Demo
