@@ -1,3 +1,12 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/zeidlos/semrel-slides/compare/v1.2.0...v1.3.0) (2018-04-21)
+
+
+### Features
+
+* **slides:** Update intro section ([8bf688a](https://github.com/zeidlos/semrel-slides/commit/8bf688a))
+* **slides:** Update the requirements section ([d8920f5](https://github.com/zeidlos/semrel-slides/commit/d8920f5))
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/zeidlos/semrel-slides/compare/v1.1.0...v1.2.0) (2018-04-21)
 
