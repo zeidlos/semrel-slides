@@ -3,7 +3,7 @@
 
 # Semantic Release Slides
 Slides and example project to show how you can automate your versioning/release workflow.
-Sticks to semantic versioning using Angular Commit Message Format and [https://github.com/semantic-release/semantic-release](semantic release).
+Sticks to semantic versioning using Angular Commit Message Format and [semantic release](https://github.com/semantic-release/semantic-release).
 
 Visit the slides at [https://zeidlos.github.io/semrel-slides/](https://zeidlos.github.io/semrel-slides/)
 
