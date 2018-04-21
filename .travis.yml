@@ -1,0 +1,26 @@
+language: node_js
+cache:
+    directories: [~/.npm]
+notifications:
+    email: false
+node_js:
+    - 8.9.1
+before_install:
+    - 'echo -e "machine github.com\n  login $GH_TOKEN" >> ~/.netrc'
+    - 'sudo apt-get -qq update'
+    - 'sudo apt-get install -y libsecret-1-dev'
+before_script:
+    - 'npm prune'
+after_success:
+    - 'git fetch --tags'
+    - 'npm run travis-deploy-once "npm run semantic-release"'
+branches:
+    only: [master]
+    except: [/^v\d+\.\d+\.\d+$/]
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
