@@ -1,3 +1,12 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/zeidlos/semrel-slides/compare/v1.1.0...v1.2.0) (2018-04-21)
+
+
+### Features
+
+* Autodeploy to GH pages ([f4f694d](https://github.com/zeidlos/semrel-slides/commit/f4f694d))
+* Fill content into slides ([adc7419](https://github.com/zeidlos/semrel-slides/commit/adc7419))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/zeidlos/semrel-slides/compare/v1.0.0...v1.1.0) (2018-04-21)
 
