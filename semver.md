@@ -51,7 +51,8 @@ Angular **5.2.10**
 
 
 
-## No! SemRel all the things!
+# No! 
+## SemRel all the things!
 [Example](https://github.com/semantic-release/cli/releases)
 
 
@@ -89,7 +90,9 @@ CLI to write commit messages according to a (custom) shared convention
 
 
 ## semantic-release
-Automates release based on commit messages
+* Automates release based on commit messages
+* Plugins
+* Extendable
 
 
 ## JS Only?
@@ -98,3 +101,7 @@ Tooling is JS, but works for everything.
 
 
 # Live Demo
+
+
+# Thanks!
+https://zeidlos.github.io/semrel-slides/
