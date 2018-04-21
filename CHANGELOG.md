@@ -1,3 +1,17 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/zeidlos/semrel-slides/compare/v1.3.0...v1.4.0) (2018-04-21)
+
+
+### Bug Fixes
+
+* Link is not shown as a link ([989859c](https://github.com/zeidlos/semrel-slides/commit/989859c))
+* Use public semantic-release-conifg ([4c773c7](https://github.com/zeidlos/semrel-slides/commit/4c773c7))
+
+
+### Features
+
+* **layout:** Adds twitter handle, talk title and slides url to view ([9e0e36b](https://github.com/zeidlos/semrel-slides/commit/9e0e36b))
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/zeidlos/semrel-slides/compare/v1.2.0...v1.3.0) (2018-04-21)
 
