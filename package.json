@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "commitizen": "^2.9.6",
+    "commitizen": "^4.3.2",
     "cz-conventional-changelog": "^2.1.0",
-    "serve": "^6.5.5",
+    "serve": "^14.2.6",
     "demo-semantic-release-config": "github:zeidlos/demo-semantic-release-config",
     "travis-deploy-once": "^4.4.1"
   },
